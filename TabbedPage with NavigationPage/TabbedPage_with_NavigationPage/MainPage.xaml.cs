@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace TabbedPage_with_NavigationPage
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : TabbedPage
     {
         public MainPage()
         {
