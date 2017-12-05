@@ -20,8 +20,9 @@ namespace TabbedPage_with_NavigationPage
                         HorizontalOptions = LayoutOptions.Center,
                         VerticalOptions = LayoutOptions.CenterAndExpand
                     },
-                  
+
                 }
             };
         }
     }
+}
