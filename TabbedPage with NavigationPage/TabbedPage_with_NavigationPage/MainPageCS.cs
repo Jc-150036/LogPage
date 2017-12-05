@@ -21,7 +21,7 @@ namespace TabbedPage_with_NavigationPage //content C#で作った
 
             var navigationPage3 = new NavigationPage(new RMPageCS ());
             navigationPage3.Icon = "ic_home.png";
-            navigationPage3.Title = "RM計算";
+            navigationPage3.Title = "RM計算";     //下タブ　タイトル？
 
             Children.Add(navigationPage);
             Children.Add(navigationPage2);

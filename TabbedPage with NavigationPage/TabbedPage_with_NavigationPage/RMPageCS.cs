@@ -9,7 +9,7 @@ namespace TabbedPage_with_NavigationPage
 {
     public class RMPageCS : ContentPage  //contenview→ContentPage
     {
-        public RMPageCS()
+        public RMPageCS() //AAA
         {
             Title = "1RM測定";
             Content = new StackLayout

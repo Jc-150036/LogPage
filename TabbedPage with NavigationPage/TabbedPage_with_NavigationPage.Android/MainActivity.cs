@@ -18,8 +18,11 @@ namespace TabbedPage_with_NavigationPage.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+           
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            OxyPlot.Xamarin.Forms.Platform.Android.PlotViewRenderer.Init();
             LoadApplication(new App());
         }
     }
