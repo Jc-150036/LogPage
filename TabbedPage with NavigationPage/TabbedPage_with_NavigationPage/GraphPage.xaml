@@ -11,10 +11,6 @@
 
             <Label Text="   "/>
 
-            
-
-            </StackLayout>
-
             <oxy:PlotView Model="{Binding Model}"
                    VerticalOptions="FillAndExpand"
                    HorizontalOptions="FillAndExpand">
@@ -80,21 +76,6 @@
                 <Entry x:Name="Bfat"
                        WidthRequest="100"
                        Text="             "/>
-
-            </StackLayout>
-
-
-            <StackLayout Orientation="Horizontal"
-                         Spacing="290">
-
-                <Button Text="TOP"
-                        Clicked="Button_Clicked"/>
-
-                <Button Text="記録"
-                        Clicked="Button_Clicked"/>
-
-                <Button Text="ストップウォッチ"
-                        Clicked="Button_Clicked"/>
 
             </StackLayout>
         </StackLayout>
