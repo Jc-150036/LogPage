@@ -7,7 +7,7 @@
              Title="ボディー統計">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical"
-                     Spacing="25">
+                     Spacing="15">
 
             <Label Text="   "/>
 
@@ -21,22 +21,22 @@
 
 
             <StackLayout Orientation="Horizontal"
-                         Spacing="75">
+                         Spacing="55">
 
                 <Label Text="前回比　体重(kg)" 
-                       FontSize="25"
+                       FontSize="15"
                        WidthRequest="130"/>
 
                 <Entry x:Name="GWeight"
-                       WidthRequest="120"
+                       WidthRequest="100"
                        Text="             "/>
 
                 <Label Text="体脂肪 (%)"
-                       FontSize="20"
+                       FontSize="15"
                        WidthRequest="110"/>
 
                 <Entry x:Name="Gbfat"
-                       WidthRequest="120"
+                       WidthRequest="100"
                        Text="             "/>
 
             </StackLayout>
@@ -49,7 +49,7 @@
                        FontSize="30"/>
 
                 <DatePicker Format="D" 
-                            WidthRequest="100"/>
+                            WidthRequest="200"/>
 
             </StackLayout>
 
