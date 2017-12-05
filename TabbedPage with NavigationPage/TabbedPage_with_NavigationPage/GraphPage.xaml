@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TabbedPage_with_NavigationPage.GraphPage"
              xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
-          
+           xmlns:local="clr-namespace:TabbedPage_with_NavigationPage"
              Title="ボディー統計">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical"
