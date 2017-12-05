@@ -7,7 +7,7 @@
              Title="ボディー統計">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical"
-                     Spacing="15">
+                     Spacing="15" BackgroundColor="Purple">
 
             <Label Text="   "/>
 
@@ -25,7 +25,8 @@
 
                 <Label Text="前回比　体重(kg)" 
                        FontSize="25"
-                       WidthRequest="130"/>
+                       WidthRequest="130"
+                       />
 
                 <Entry x:Name="GWeight"
                        WidthRequest="100"
