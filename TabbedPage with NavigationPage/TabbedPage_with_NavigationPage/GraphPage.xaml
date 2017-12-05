@@ -11,17 +11,7 @@
 
             <Label Text="   "/>
 
-            <StackLayout Orientation="Horizontal"
-                         Spacing="300">
-
-                <Button Text="戻る"
-                        Clicked="Button_Clicked"/>
-
-                <Label Text="ボディー統計"
-                       FontSize="30"/>
-
-                <Button Text="保存"
-                        Clicked="Button_Clicked"/>
+            
 
             </StackLayout>
 
