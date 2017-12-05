@@ -24,7 +24,7 @@
                          Spacing="55">
 
                 <Label Text="前回比　体重(kg)" 
-                       FontSize="15"
+                       FontSize="25"
                        WidthRequest="130"/>
 
                 <Entry x:Name="GWeight"
@@ -32,7 +32,7 @@
                        Text="             "/>
 
                 <Label Text="体脂肪 (%)"
-                       FontSize="15"
+                       FontSize="25"
                        WidthRequest="110"/>
 
                 <Entry x:Name="Gbfat"
@@ -49,7 +49,7 @@
                        FontSize="30"/>
 
                 <DatePicker Format="D" 
-                            WidthRequest="200"/>
+                            WidthRequest="170"/>
 
             </StackLayout>
 
@@ -76,7 +76,9 @@
                 <Entry x:Name="Bfat"
                        WidthRequest="100"
                        Text="             "/>
-
+                
+                <Label Text=""/>
+                
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
