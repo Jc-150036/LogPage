@@ -4,16 +4,19 @@
              xmlns:local="clr-namespace:TabbedPage_with_NavigationPage"
              x:Class="TabbedPage_with_NavigationPage.MainPage">
 
-    <NavigationPage Title="ボディー統計" Icon="ic_home.png">
-        <x:Arguments>
-            <local:GraphPage />
-        </x:Arguments>
-    </NavigationPage>
-    <NavigationPage Title="記録" Icon="ic_home.png">
+
+    <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
         <x:Arguments>
             <local:RecordListPage />
         </x:Arguments>
     </NavigationPage>
+
+    <NavigationPage Title="ボディー統計" Icon="ic_accessibility_2x.png">
+        <x:Arguments>
+            <local:GraphPage />
+        </x:Arguments>
+    </NavigationPage>
+    
     <NavigationPage Title="RM計算" Icon="ic_home.png">
         <x:Arguments>
             <local:RMPage />

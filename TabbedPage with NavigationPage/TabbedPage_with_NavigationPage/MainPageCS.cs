@@ -11,13 +11,17 @@ namespace TabbedPage_with_NavigationPage //content C#で作った
     {
         public MainPageCS()
         {
+
+            var navigationPage2 = new NavigationPage(new RecordListPageCS());
+            navigationPage2.Icon = "ic_home.png";
+            navigationPage2.Title = "記録";
+
+
             var navigationPage = new NavigationPage(new GraphPageCS ());
             navigationPage.Icon = "ic_home.png";
             navigationPage.Title = "ボディー統計";
 
-            var navigationPage2 = new NavigationPage(new RecordListPageCS ());
-            navigationPage2.Icon = "ic_home.png";
-            navigationPage2.Title = "記録";
+            
 
             var navigationPage3 = new NavigationPage(new RMPageCS ());
             navigationPage3.Icon = "ic_home.png";

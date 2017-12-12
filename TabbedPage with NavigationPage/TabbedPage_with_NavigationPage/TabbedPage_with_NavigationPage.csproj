@@ -43,6 +43,14 @@
     </Compile>
     <Compile Include="GraphPageCS.cs" />
     <Compile Include="LineChart.cs" />
+    <Compile Include="LogDetailPage.cs" />
+    <Compile Include="LogDetailPage.xaml.cs">
+      <DependentUpon>LogDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogPage.xaml.cs">
+      <DependentUpon>LogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogPageCS.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -56,6 +64,9 @@
       <DependentUpon>RMPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="RMPageCS.cs" />
+    <Compile Include="TopPage.xaml.cs">
+      <DependentUpon>TopPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -101,6 +112,24 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="GraphPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TopPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LogPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LogDetailPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

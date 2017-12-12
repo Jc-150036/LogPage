@@ -7,20 +7,19 @@ using Xamarin.Forms;
 
 namespace TabbedPage_with_NavigationPage
 {
-    public class RMPageCS : ContentPage  //contenview→ContentPage
+    public class LogDetailPage : ContentPage
     {
-        public RMPageCS()
+        public LogDetailPage()
         {
-            Title = "1RM測定"; //表示どこかわからない
+            Title = "Log詳細";
             Content = new StackLayout
             {
                 Children = {
                     new Label {
-                        Text = "Welcome to RMPage!",
+                        Text = "Welcome to Log詳細Page!",
                         HorizontalOptions = LayoutOptions.Center,
                         VerticalOptions = LayoutOptions.CenterAndExpand
                     },
-
                 }
             };
         }
