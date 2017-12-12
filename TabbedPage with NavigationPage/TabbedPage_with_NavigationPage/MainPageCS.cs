@@ -33,15 +33,13 @@ namespace TabbedPage_with_NavigationPage //content C#で作った
             navigationPage3.Title = "ログ";
 
 
-            var navigationPage5 = new NavigationPage(new LogDetailPageCS());
-            navigationPage3.Icon = "ic_home.png";
-            navigationPage3.Title = "ログ詳細";
+            
 
             Children.Add(navigationPage);
             Children.Add(navigationPage2);
             Children.Add(navigationPage3);
             Children.Add(navigationPage4);
-            Children.Add(navigationPage5);
+          
         }
     }
 }

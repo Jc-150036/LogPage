@@ -23,11 +23,7 @@
         </x:Arguments>
     </NavigationPage>
     
-    <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
-        <x:Arguments>
-            <local:LogDetailPage />
-        </x:Arguments>
-    </NavigationPage>
+   
 
     <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
         <x:Arguments>
