@@ -7,9 +7,9 @@ using Xamarin.Forms;
 
 namespace TabbedPage_with_NavigationPage
 {
-    public class LogDetailPage : ContentPage
+    public class LogDetailPageCS : ContentPage
     {
-        public LogDetailPage()
+        public LogDetailPageCS()
         {
             Title = "Log詳細";
             Content = new StackLayout

@@ -16,7 +16,7 @@ namespace TabbedPage_with_NavigationPage
             {
                 Children = {
                     new Label {
-                        Text = "Welcome to LogPa!",
+                        Text = "Welcome to LogPage!",
                         HorizontalOptions = LayoutOptions.Center,
                         VerticalOptions = LayoutOptions.CenterAndExpand
                     },

@@ -43,7 +43,7 @@
     </Compile>
     <Compile Include="GraphPageCS.cs" />
     <Compile Include="LineChart.cs" />
-    <Compile Include="LogDetailPage.cs" />
+    <Compile Include="LogDetailPageCS.cs" />
     <Compile Include="LogDetailPage.xaml.cs">
       <DependentUpon>LogDetailPage.xaml</DependentUpon>
     </Compile>

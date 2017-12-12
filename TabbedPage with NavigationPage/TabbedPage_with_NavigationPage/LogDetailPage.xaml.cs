@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace TabbedPage_with_NavigationPage
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LogDetailPage : ContentPage
+    public partial class LogDetailPageCS : ContentPage
     {
-        public LogDetailPage()
+        public LogDetailPageCS()
         {
             InitializeComponent();
         }
