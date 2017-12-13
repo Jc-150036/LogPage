@@ -3,13 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TabbedPage_with_NavigationPage"
              x:Class="TabbedPage_with_NavigationPage.MainPage">
-
+    
 
     <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
         <x:Arguments>
             <local:RecordListPage />
         </x:Arguments>
     </NavigationPage>
+    
+    <
 
     <NavigationPage Title="ボディー統計" Icon="ic_accessibility_2x.png">
         <x:Arguments>
