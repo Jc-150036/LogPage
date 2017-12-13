@@ -4,13 +4,20 @@
              xmlns:local="clr-namespace:TabbedPage_with_NavigationPage"
              x:Class="TabbedPage_with_NavigationPage.MainPage">
 
+    <StackLayout Orientation="Horizontal">
 
-    <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
-        <x:Arguments>
-            <local:RecordListPage />
-        </x:Arguments>
-    </NavigationPage>
-    
+        <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
+            <x:Arguments>
+                <local:RecordListPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <Button Text="編集"
+                Clicked="Button_Clicked"
+                FontSize="15"
+                HorizontalOptions="EndAndExpand"/>
+    </StackLayout>
+
     <NavigationPage Title="ボディー統計" Icon="ic_accessibility_2x.png">
         <x:Arguments>
             <local:GraphPage />
