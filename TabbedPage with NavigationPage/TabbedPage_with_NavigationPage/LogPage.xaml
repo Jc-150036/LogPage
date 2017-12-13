@@ -4,7 +4,8 @@
              x:Class="TabbedPage_with_NavigationPage.LogPage"
               Title="ログ">
     <ContentPage.Content>
-        <StackLayout>
+        
+        <StackLayout Spacing="30">
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
