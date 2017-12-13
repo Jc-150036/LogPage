@@ -10,7 +10,7 @@
             <local:RecordListPage />
         </x:Arguments>
     </NavigationPage>
-    b
+    
     <NavigationPage Title="ボディー統計" Icon="ic_accessibility_2x.png">
         <x:Arguments>
             <local:GraphPage />
