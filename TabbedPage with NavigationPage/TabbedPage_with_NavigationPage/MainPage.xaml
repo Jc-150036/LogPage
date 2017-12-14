@@ -8,12 +8,7 @@
     <NavigationPage Title="記録" Icon="ic_assignment_2x.png">
         <x:Arguments>
             <local:RecordListPage />
-         </x:Arguments>
-        
-        <Button Text="編集"
-                Clicked="Button_Clicked"
-                FontSize="15"
-                HorizontalOptions="EndAndExpand" />
+        </x:Arguments>
     </NavigationPage>
 
     <NavigationPage Title="ボディー統計" Icon="ic_accessibility_2x.png">
