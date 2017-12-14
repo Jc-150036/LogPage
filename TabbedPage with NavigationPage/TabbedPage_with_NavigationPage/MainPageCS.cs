@@ -16,6 +16,11 @@ namespace TabbedPage_with_NavigationPage //content C#で作った
             navigationPage2.Icon = "ic_home.png";
             navigationPage2.Title = "記録";
 
+            private void Button_Clicked(object sender, EventArgs e)
+            {
+
+            }
+
 
             var navigationPage = new NavigationPage(new GraphPageCS ());
             navigationPage.Icon = "ic_home.png";
