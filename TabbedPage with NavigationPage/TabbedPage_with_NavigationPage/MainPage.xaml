@@ -9,11 +9,11 @@
         <x:Arguments>
             <local:RecordListPage />
          </x:Arguments>
-            <Button Text="編集"
+        
+        <Button Text="編集"
                 Clicked="Button_Clicked"
                 FontSize="15"
-                HorizontalOptions="EndAndExpand"/>
-        
+                HorizontalOptions="EndAndExpand" />
     </NavigationPage>
 
     <NavigationPage Title="ボディー統計" Icon="ic_accessibility_2x.png">
